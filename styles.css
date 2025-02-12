@@ -3,6 +3,8 @@ body {
     and use the OS’s UI font as the website font
   */
  font: 100%/1.5 system-ui;
+ background-color: #FFFDD0; 
+
 }
 
 body, h1, h2, h3, h4, h5, h6, section, ul, ol, li, p {
