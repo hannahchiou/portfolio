@@ -3,6 +3,10 @@ body {
     and use the OS’s UI font as the website font
   */
  font: 100%/1.5 system-ui;
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+body, h1, h2, h3, h4, h5, h6, section, ul, ol, li, p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 
