@@ -109,3 +109,20 @@ button {
   margin: 0;
 }
 
+.about {
+  display: flex;
+  align-items: center; 
+  gap: 1em; 
+}
+
+.text-box {
+  max-width: 50%; 
+  flex-shrink: 0; /
+}
+
+.about img {
+  max-width: 30%; 
+  height: auto; 
+}
+
+
