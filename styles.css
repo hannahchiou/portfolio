@@ -51,6 +51,7 @@ a:hover, a:focus {
 }
 
 nav {
+  color: #424790;
   display: flex;
   margin-bottom: 2em;
   border-bottom: 3px solid #424790;
