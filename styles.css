@@ -24,12 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font: 100%/1.5;
+  font: 120%/1.5;
   background-color: #f2eee9; 
   max-width: 125ch;
   margin: 0 auto; 
   padding: 5%;
   color: #2a2727;
+  line-height: 1.5em;
 }
 
 input, textarea, button {
