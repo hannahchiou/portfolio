@@ -292,7 +292,7 @@ button:hover {
 
 .color-scheme{
   position: absolute;
-  top: 7rem;
+  top: 9rem;
   right: 15rem;
   display: inline-flex;
   gap: 4px;
