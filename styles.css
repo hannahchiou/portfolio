@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, section, ul, ol, li, p, nav, label, button {
 }
 
 body {
-  font: 120%/1.5;
+  font: 150%;
   background-color: var(--color-bg);
   color: var(--color-text);
   max-width: 125ch;
