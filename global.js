@@ -127,12 +127,14 @@ let select = document.querySelector("select");
 let html = document.documentElement;
 
 
+// Apply theme to page
 function applyTheme(theme) {
     if (theme === "dark") {
         html.classList.add("dark-mode");
     } else {
         html.classList.remove("dark-mode");
     }
+    console.log(`Color scheme has changed to ${theme}`);
 }
 
 function loadTheme() {
@@ -151,13 +153,12 @@ function loadTheme() {
     }
 }
 
-// Listen for user selection and update the theme
 select.addEventListener("change", function (event) {
     let chosenTheme = event.target.value;
 
     if (chosenTheme === "auto") {
-        localStorage.removeItem("colorScheme"); // Remove saved preference
-        loadTheme(); // Reapply system settings
+        localStorage.removeItem("colorScheme");
+        loadTheme(); 
     } else {
         localStorage.setItem("colorScheme", chosenTheme);
         applyTheme(chosenTheme);
@@ -166,8 +167,6 @@ select.addEventListener("change", function (event) {
 
 // Automatically apply the theme on page load
 loadTheme();
-
-
 
 
 // STEP 5 (OPTIONAL)
